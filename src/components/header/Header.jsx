@@ -1,17 +1,5 @@
-/** @format */
-
-import React, { useState } from "react";
-import {
-	AppBar,
-	Toolbar,
-	IconButton,
-	Button,
-	Input,
-	InputAdornment,
-	MenuItem,
-	Menu,
-	ListItemIcon,
-} from "@material-ui/core";
+import { useState } from "react";
+import { AppBar, Toolbar, IconButton, Button, Input, InputAdornment, MenuItem, Menu, ListItemIcon } from "@material-ui/core";
 //icons
 import logo from "../../imgs/disney_logo.svg";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -67,13 +55,7 @@ const Header = () => {
 			<AppBar className={classes.root} position="sticky">
 				<Toolbar>
 					{/* leftside */}
-					<IconButton
-						edge="start"
-						className={classes.menuButton}
-						color="inherit"
-						onClick={handleClickmenu}
-						aria-controls="menu-menu"
-					>
+					<IconButton edge="start" className={classes.menuButton} color="inherit" onClick={handleClickmenu} aria-controls="menu-menu">
 						<MenuIcon />
 					</IconButton>
 					<Menu
@@ -114,12 +96,7 @@ const Header = () => {
 
 					<img className={classes.title} src={logo} alt="" />
 
-					<Button
-						aria-controls="simple-menu"
-						aria-haspopup="true"
-						onClick={handleClicktv}
-						className={classes.linktv}
-					>
+					<Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClicktv} className={classes.linktv}>
 						TV
 					</Button>
 					<Menu
@@ -167,12 +144,7 @@ const Header = () => {
 						</MenuItem>
 					</Menu>
 
-					<Button
-						aria-controls="movie-menu"
-						aria-haspopup="true"
-						onClick={handleClickmovie}
-						className={classes.links}
-					>
+					<Button aria-controls="movie-menu" aria-haspopup="true" onClick={handleClickmovie} className={classes.links}>
 						Movies
 					</Button>
 					<Menu
@@ -217,12 +189,7 @@ const Header = () => {
 						</MenuItem>
 					</Menu>
 
-					<Button
-						aria-controls="sport-menu"
-						aria-haspopup="true"
-						onClick={handleClicksport}
-						className={classes.links}
-					>
+					<Button aria-controls="sport-menu" aria-haspopup="true" onClick={handleClicksport} className={classes.links}>
 						Sports
 					</Button>
 					<Menu
@@ -302,12 +269,7 @@ const Header = () => {
 								</InputAdornment>
 							}
 						/>
-						<Button
-							variant="contained"
-							color="primary"
-							size="small"
-							className={classes.subscribe}
-						>
+						<Button variant="contained" color="primary" size="small" className={classes.subscribe}>
 							Subscribe
 						</Button>
 						<Button className={classes.login}>LOGIN</Button>

@@ -1,6 +1,3 @@
-/** @format */
-
-import React from "react";
 import useStyles from "../Styles";
 
 const CarouselItem = (props) => {

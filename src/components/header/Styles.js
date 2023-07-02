@@ -1,5 +1,3 @@
-/** @format */
-
 import { makeStyles } from "@material-ui/core";
 import KidsIcon from "../../imgs/kids.svg";
 

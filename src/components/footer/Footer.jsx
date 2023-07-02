@@ -1,7 +1,4 @@
-/** @format */
-
-import React from "react";
-import { Grid, Button, IconButton } from "@material-ui/core";
+import { Grid, Button } from "@material-ui/core";
 import { NavLink } from "react-router-dom";
 //css
 import useStyles from "./Styles";
@@ -40,21 +37,13 @@ const Footer = () => {
 					</Grid>
 					<Grid>
 						<p className={classes.footerText}>
-							© 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and
-							programming logos are service marks of, and all related programming visuals and
-							elements are the property of, Home Box Office, Inc. All rights reserved.
+							© 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements
+							are the property of, Home Box Office, Inc. All rights reserved.
 						</p>
 					</Grid>
 				</Grid>
 				<Grid item sm={12} lg={6} container direction="row" className={classes.pad}>
-					<Grid
-						className={classes.connectText}
-						container
-						direction="column"
-						justify="center"
-						alignItems="center"
-						xs={6}
-					>
+					<Grid item className={classes.connectText} container direction="column" justify="center" alignItems="center" xs={6}>
 						Connect with us
 						<Grid style={{ marginTop: 10 }} container direction="row" justify="center">
 							<Button style={{ marginRight: 5 }} className={classes.footerButton}>
@@ -65,14 +54,7 @@ const Footer = () => {
 							</Button>
 						</Grid>
 					</Grid>
-					<Grid
-						className={classes.connectText}
-						container
-						direction="column"
-						justify="center"
-						alignItems="center"
-						xs={6}
-					>
+					<Grid item className={classes.connectText} container direction="column" justify="center" alignItems="center" xs={6}>
 						Disney+ Hotstar App
 						<Grid container direction="row" justify="center">
 							<Button>

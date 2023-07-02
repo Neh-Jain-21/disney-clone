@@ -1,20 +1,13 @@
-/** @format */
-
-import React from "react";
 import useStyles from "../Styles";
 import { Button } from "@material-ui/core";
 
-const Childcarousel = (props) => {
+const Childcarousel = () => {
 	const classes = useStyles();
 
 	return (
 		<>
 			<div className={classes.zoom}>
-				<img
-					className={classes.imgChild}
-					src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3029/1033029-v-bd928a1dd530"
-					alt=""
-				/>
+				<img className={classes.imgChild} src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3029/1033029-v-bd928a1dd530" alt="" />
 				<div className="card-description">
 					<p className={classes.cardDescriptionTitle}>PKOK</p>
 					<h1 className={classes.cardDescriptionLanguages}>Hey</h1>
